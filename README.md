@@ -6,6 +6,7 @@
 ## 韌體體需求
 
 | 韌體名稱 | 版本需求 |
+| --- | --- |
 | Arduino ESP32 | 任一版本皆可 |
 | 麥克風模組| INMP441 |
 | 螢幕 | I2C OLED |
@@ -39,6 +40,7 @@ https://
 下列是查尋到的 ESP32 開發版可以使用的驅動程式
 
 | Arudino ESP32 開發版 | 橋接晶片 | 是否需要驅動程式 |
+| --- | --- | --- |
 | Arudino ESP32-S3-CAM | CJ340 | 是 |
 | Arudino ESP32-CAM (AI Thinker) | CH340 | 是 |
 | Arduino ESP8266 NodeMCU v1 | CH340 | 是 |
@@ -46,4 +48,5 @@ https://
 | Arduino ESP32 nano | 原生 OTG USB | 否 |
 | Arduino ESP32 DevKit | CP102 | 否 |
 | Arduino ESP32-S3 DevKit | 原生 OTG USB | 否 |
+
 ***總結: 如果你的 ESP32 開發版有 OTG port 與 TTL port 兩個的話皆需要驅動程式進行安裝***
