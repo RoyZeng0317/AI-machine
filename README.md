@@ -17,6 +17,7 @@
 [img]
 
 ## 安裝教學
+**安裝前需要注意 Aruino.ino 的 Wi-Fi  SSID: "你的 Wi-Fi 名稱" 與 Wi-FI PASSWORD: "你的 Wi-Fi 密碼" 都需要更改**
 ```bash
 git clone https://github.com/RoyZeng0317/AI-machine
 cd AI-machine
